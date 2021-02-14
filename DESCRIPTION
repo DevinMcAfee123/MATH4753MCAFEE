@@ -11,3 +11,4 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/DevinMcAfee123/MATH4753MCAFEE
 BugReports: https://github.com/DevinMcAfee123/MATH4753MCAFEE/issues
+RoxygenNote: 7.1.1
