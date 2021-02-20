@@ -18,5 +18,5 @@ a dataframe object containing the data in the csv file.
 Title
 }
 \examples{
-mpg.df=myread(paste0("C:\\\\", "CSVdirectory\\\\"), "Data.csv")
+\dontrun{mpg.df=myread(paste0("C:\\\\", "CSVdirectory\\\\"), "Data.csv")}
 }

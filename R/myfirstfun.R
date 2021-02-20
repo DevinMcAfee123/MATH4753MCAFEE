@@ -7,7 +7,7 @@
 #' @export
 #'
 #' @examples
-#' y-< 1:10; myfirstfun(y)
+#' \dontrun{y<- 1:10; myfirstfun(y)}
 myfirstfun <- function(x) {
   x^2
 }

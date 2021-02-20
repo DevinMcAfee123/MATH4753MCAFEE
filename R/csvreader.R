@@ -9,7 +9,8 @@
 #'
 #' @export
 #'
-#' @examples mpg.df=myread(paste0("C:\\", "CSVdirectory\\"), "Data.csv")
+#' @examples
+#' \dontrun{mpg.df=myread(paste0("C:\\", "CSVdirectory\\"), "Data.csv")}
 myread=function(dird, csv){
   fl=paste(dird,csv,sep="")
   read.table(fl,header=TRUE,sep=",")

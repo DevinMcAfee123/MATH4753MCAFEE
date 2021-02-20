@@ -16,5 +16,5 @@ A vector of squared components
 Title
 }
 \examples{
-y-< 1:10; myfirstfun(y)
+\dontrun{y<- 1:10; myfirstfun(y)}
 }
