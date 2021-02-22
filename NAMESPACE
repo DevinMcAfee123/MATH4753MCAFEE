@@ -2,3 +2,4 @@
 
 export(myfirstfun)
 export(myread)
+export(poisson)
