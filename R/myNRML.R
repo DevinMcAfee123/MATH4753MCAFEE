@@ -7,6 +7,7 @@
 #' @param parameter parameter of the log likelihood function
 #'
 #' @return plots the log likelihood function and newton-rapshon algorithm on the derivative
+#' @export
 #'
 #' @examples
 #' \dontrun{myNRML(1, llik=llogpois, xrange=c(0,40), parameter="lambda")}
