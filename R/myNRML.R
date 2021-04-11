@@ -1,5 +1,5 @@
 #' Title
-#' @ Newton Raphson Maximum Likelihood
+#' @title Newton Raphson Maximum Likelihood
 #' @param x0 initial x value
 #' @param delta threshold that stops iteration above y-axis
 #' @param llik log likelihood function
@@ -9,7 +9,8 @@
 #' @return plots the log likelihood function and newton-rapshon algorithm on the derivative
 #'
 #' @examples
-#' \dontrun{myNRML(1, llik=function(x) log(dpois(4,x)dpois(6,x)dpois(7,x)dpois(6,x)*dpois(5,x)), xrange=c(0,40), parameter="lambda")}
+#' \dontrun{myNRML(1, llik=llogpois, xrange=c(0,40), parameter="lambda")}
+
 myNRML=function(x0,delta=0.001,llik,xrange,parameter="param"){
   f=function(x) (llik(x+delta)-llik(x))/delta
   fdash=function(x) (f(x+delta)-f(x))/delta
