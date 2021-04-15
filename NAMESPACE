@@ -2,6 +2,7 @@
 
 export(myNRML)
 export(myboot2)
+export(myci)
 export(mycltb)
 export(myfirstfun)
 export(myncurve)
